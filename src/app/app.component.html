@@ -3,13 +3,12 @@
     <div class="col-md-6 offset-md-3">
       <h2>Signup</h2>
       <br>
-      <form [formGroup]="myForm" (submit)="onSubmit()">
-       
-        <div class="form-group">
-          <button class="btn btn-danger">Submit</button>
-        </div>
-      </form>
+        <button (click)="onSubmit2()">Submit</button>
+        <!-- <button class="g-recaptcha"  data-sitekey="6LeYzKkcAAAAAMzNYjblQNjBqRALe9rhgwcO3ASN" data-callback='onSubmit'>ss</button> -->
+        <br/>
       <p>Formdata</p>
     </div>
   </div>
 </div>
+<div class="g-recaptcha" data-sitekey="6LeYzKkcAAAAAMzNYjblQNjBqRALe9rhgwcO3ASN"></div>
+<!-- <app-home></app-home> -->
